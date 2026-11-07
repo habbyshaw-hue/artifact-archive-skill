@@ -1,5 +1,7 @@
 # Artifact Archive skill
 
+For the moments in your day when you say, "Damn. That's cool."
+
 This skill lets Claude archive your work to artifactarchive.ai. You choose what goes up and approve every deposit.
 
 It can be anything you made with AI, shown as an image: a render, a screenshot of software you built, a chart or a photo of something physical. Code itself is never archived.
