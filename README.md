@@ -8,21 +8,19 @@ Artifact Archive is invite only. This repo holds the skill, not your access. You
 
 ## Install
 
-1. Open the invite link you were given, enter your name and download your zip.
-2. Open the zip, then run `sh ~/Downloads/artifact-archive-post/install.sh` in Terminal.
-3. Delete the zip. It holds your private token, and the site can't show it again.
+Open Claude Code and paste the line from your invite. Claude clones this repo into `~/.claude/skills/artifact-archive-post`, asks for your display name and sets up your private token.
 
 ## Use
 
-Tell Claude: "Archive this to Artifact Archive."
+Run `/artifact-archive-post` in Claude Code.
 
 ## Updates
 
-The skill checks https://github.com/habbyshaw-hue/artifact-archive-skill each time you use it. If there's a newer version, Claude asks whether to update. Your member ID and token are kept. To update by hand, run `scripts/update.sh` from the skill folder.
+The skill checks this repo each time you use it. If there's a newer version, Claude asks whether to update, then pulls `main`. Your member ID and token aren't in the repo, so they stay put. To update by hand, run `scripts/update.sh` from the skill folder.
 
 ## Needs
 
-- `python3` and `curl`
+- `git`, `python3` and `curl`
 - Google Chrome, Chromium or Edge, to preview HTML and SVG
 - `pdftoppm` or macOS `sips`, to preview PDFs
 - ImageMagick, to make GIFs, and `ffmpeg` to make them from video
