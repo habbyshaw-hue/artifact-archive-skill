@@ -84,6 +84,16 @@ python3 scripts/capture.py --url "http://localhost:3000" --out "<file>.png"
 - Never archive code, terminal output or logs, as text or as a picture of them.
 - If there's nothing visual to show, say so and suggest waiting until there is. Don't invent something to fill the space.
 
+**Compose it well.** When you make or capture an image, treat it as a composition. It should look considered on the wall.
+
+- Leave ample space around the work, at least 10% of the image's width on every side. Never let it touch or crowd the edge.
+- Build on a grid. Use equal margins and even spacing, and align everything to the same columns. Several pieces in one image share the same gutters.
+- Give it one clear subject. Leave out browser bars, toolbars, desktop clutter and anything else that isn't the work.
+- Use a plain, quiet background that doesn't compete with the work.
+- Export it sharp, at least 1600 pixels on the long edge. GIFs have their own limits below.
+
+Composing changes how the work is presented, never the work itself. Don't alter its colours or content. Never recompose an image the member uploaded. Use it as it is.
+
 **If the work moves,** such as a spin, a transition or an animation, a still doesn't show it. Make a GIF:
 
 1. Capture one full loop as numbered PNG frames, with the last frame leading straight back to the first. A video also works.
