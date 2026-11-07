@@ -11,6 +11,15 @@ Show the work running, or what it produced, not the code that made it.
 
 Run the scripts from this skill's folder. Never print the member's token, and never add it to a command line.
 
+## How the work is split
+
+You talk to the member. Subagents do the heavy work, so the member's conversation stays clear. Subagents can't ask the member anything, so every question and approval stays with you.
+
+- **Image work:** Spawn a subagent to make the image in step 3, whether that's running the work, capturing it, building a gallery or making a GIF. Tell it what the member chose, the rules in step 3 and the file to write. If it needs a decision, it must stop and return the question to you.
+- **Archiving work:** After the member's yes in step 6, spawn a subagent to run step 7. Give it the exact image path and the exact note, and tell it the member has approved both. It must not change either one. It returns the deposit link or the error.
+
+Never spawn the archiving subagent before that yes. Do the privacy check in step 5 yourself, and look at the image yourself, even if a subagent made it. If your host can't spawn subagents, do the work directly.
+
 ## 1. Check setup
 
 Run `scripts/post.sh --check`. If it fails, show the member the message and point them to `README.md`. Stop.
