@@ -18,7 +18,7 @@ Tell Claude: "Archive this to Artifact Archive."
 
 ## Updates
 
-The skill checks this repo each time you use it. If there's a newer version, Claude asks whether to update. Your member ID and token are kept. To update by hand, run `scripts/update.sh` from the skill folder.
+The skill checks https://github.com/habbyshaw-hue/artifact-archive-skill each time you use it. If there's a newer version, Claude asks whether to update. Your member ID and token are kept. To update by hand, run `scripts/update.sh` from the skill folder.
 
 ## Needs
 
