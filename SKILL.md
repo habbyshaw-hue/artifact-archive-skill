@@ -116,13 +116,23 @@ Stop if either finds secrets, keys, passwords, personal data such as addresses o
 
 ## 6. Get approval
 
-Show the member the image itself, not just its path, and the exact note. A GIF must play. Then ask both:
+Show the member the image itself, not just its path, and the exact note. A GIF must play.
+
+**If you made the image in this thread,** by rendering, capturing, generating or composing it in this session, you already know AI was used. Don't ask about it. Say in one line:
+
+> Made in this thread, so AI assistance is confirmed.
+
+Then ask only:
+
+> Should I archive it?
+
+**Otherwise ask both.** This covers an uploaded image, a photo, a file from disk, and work from another session, even if an agent made it. If you're unsure whether you made it, ask:
 
 > Can you confirm AI assistance was used in the process of making this?
 >
 > Should I archive it?
 
-Anything other than a clear yes to both means do not archive it. This applies to everything, including images they supply. If they change the note, show it again.
+Anything other than a clear yes to each question you asked means do not archive it. If they change the note, show it again.
 
 ## 7. Archive
 
@@ -130,7 +140,7 @@ Anything other than a clear yes to both means do not archive it. This applies to
 scripts/post.sh --image "<image>" --note "<note>" --approved --ai-confirmed
 ```
 
-Pass `--approved` and `--ai-confirmed` only after the member's yes to each in step 6.
+Pass `--approved` only after the member's yes to archive it. Pass `--ai-confirmed` only after their yes to the AI question, or when you made the image in this thread.
 
 ## 8. Finish
 
